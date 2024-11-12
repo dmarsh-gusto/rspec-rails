@@ -9,7 +9,7 @@ detailed explanations of how the application is supposed to behave,
 expressed in plain English.
 
 According to [RSpec Rails new versioning strategy][] use:
-* **[`rspec-rails` 7.x][]** for Rails 7.x.
+* **[`rspec-rails` 7.x][]** for Rails 7.x. or 8.0
 * **[`rspec-rails` 6.x][]** for Rails 6.1, 7.0 or 7.1.
 * **[`rspec-rails` 5.x][]** for Rails 5.2 or 6.x.
 * **[`rspec-rails` 4.x][]** for Rails from 5.x or 6.x.
@@ -41,7 +41,7 @@ See the [`7-1-maintenance` branch on Github](https://github.com/rspec/rspec-rail
    ```ruby
    # Run against this stable release
    group :development, :test do
-     gem 'rspec-rails', '~> 7.0.0'
+     gem 'rspec-rails', '~> 7.1.0'
    end
 
    # Or, run against the main branch
